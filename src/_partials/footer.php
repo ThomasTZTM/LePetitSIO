@@ -12,6 +12,8 @@
             <a class="button nav-link mt-5 text-primary" href="/paiement.php">Politique de paiement</a>
             <a class="button nav-link text-primary" href="/Retour.php">Politique de retour</a>
             <a class="button nav-link text-primary" href="/partenaire.php">Partenaire</a>
+            <h4 class="fs-5 display-6 mt-5">Numéro de téléphone : 0425632458</h4>
+            <h4 class="fs-5 display-6">Email : lps-boisson@sio.fr</h4>
         </div>
         <div class="col">
             <img src="./assets/images/LPSGIF.gif" alt="Logo MyDriveMovie" width="300" height="300"

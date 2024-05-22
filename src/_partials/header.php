@@ -61,7 +61,7 @@ if (isset($_SESSION["utilisateur"])) {
                                 <a class="nav-link" href="/ajout_film.php">Mon panier</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/mes_films.php">Mes commandes</a>
+                                <a class="nav-link" href="/historique.php">Historique des commandes</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/deconnexion.php">Déconnexion</a>

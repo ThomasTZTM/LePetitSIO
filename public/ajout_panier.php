@@ -4,10 +4,8 @@ session_start();
 
 if (isset($_SESSION["utilisateur"])) {
     $ps1 = $_SESSION["utilisateur"]["id"];
-    echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
 }else{
     $ps1=Null;
-    echo "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB";
 }
 
 // Connexion à la base de données
@@ -73,7 +71,8 @@ if (2 == 2) {
     try {
         $stmt->execute();
         echo "<script>alert('La boisson est dans le panier !');</script>";
-        header("Location: ../detail-film.php?id_film=$iddfilm"); // Redirection
+        //header("Location: ../detail-film.php?id_film=$iddfilm"); // Redirection
+        header("Location: ../ajout_film.php"); // Redirection
         exit();
     } catch (PDOException $e) {
         die("Erreur lors de l'insertion dans la base de données : " . $e->getMessage());

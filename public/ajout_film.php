@@ -73,7 +73,6 @@ require_once BASE_PROJET .
                                 <h3 class="card-title"><?= $film["titre_film"] ?></h3>
                                 <h5 class="text-primary">Prix : <?= $film["duree_film"] ?>€</h5>
                                 <?php $valeur = $valeur+$film["duree_film"] ?>
-                                <a href="detail-film.php?id_film=<?= $film['id_film'] ?>" class="btn btn-primary stretched-link">Détails du produit</a>
 
                                 <a href="supprimer_panier.php?id_film=<?= $film['id_film'] ?>" class="mt-2 bg-danger btn btn-danger stretched-link">Supprimer le produit du panier</a>
 
@@ -88,14 +87,14 @@ require_once BASE_PROJET .
         <h1 class="mb-3 text-center"><span> Valeur du panier : <span class="text-primary"><?php echo $valeur ?>€</span></h1>
         <div class="text-center">
             <?php if ($valeur!=0) : ?>
-                <a href="#" class="btn btn-success text-center">Commander</a>
+                <a href="mes_films.php?montant=<?= $valeur ?>" class="btn btn-success text-center">Commander</a>
             <?php endif;?>
         </div>
 
 
         <section class="container">
             <div class="container">
-                <a class="nav-link text-primary mt-5 text-center" href="/mes_films.php">Voir mes anciennes commandes</a>
+                <a class="nav-link text-primary mt-5 text-center" href="/historique.php">Voir mes anciennes commandes</a>
             </div>
         </section>
 

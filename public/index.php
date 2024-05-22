@@ -25,7 +25,7 @@ $films = pdoindex();
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/test.css" rel="stylesheet">
 
-    <title>LPS - Acceuil</title>
+    <title>LPS - Accueil</title>
 </head>
 
 <body class="cursor">
@@ -51,14 +51,14 @@ require_once BASE_PROJET .
     <img src="./assets/images/LPSGIF3.gif" alt="Logo MyDriveMovie" width="500" height="500"
          class="d-inline-block align-top mt-5">
     <p class="lead mb-5">La fraîcheur confectionné par les meilleurs !</p>
-    <a class="btn btn-primary btn-lg" href="/liste-film.php" role="button">Parcourir nos boissons</a>
+    <a class="btn btn-primary btn-lg" href="/liste-film.php" role="button">Parcourir la liste des boissons</a>
 </div>
 
 
 <hr class="my-4 opacity-75 container">
 
 <div class="container">
-    <h1 class="mb-5 mx-auto text-center display-5">Nos nouvelles <span class="text-primary">boisson fraiche !</span></h1>
+    <h1 class="mb-5 mx-auto text-center display-5">Nos nouvelles <span class="text-primary">boissons fraîches !</span></h1>
     <div id="carouselFilms" class="carousel container w-75" data-bs-ride="carousel">
         <div class="carousel-inner container">
             <?php foreach ($films as $index => $film) : ?>

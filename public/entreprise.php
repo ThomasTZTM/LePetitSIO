@@ -63,9 +63,9 @@ require_once BASE_PROJET .
                     <div class="card">
                         <div class="card-body">
                             <img src="/assets/images/perso/IMG_1851.jpg" class="card-img-top mb-3">
-                            <h5 class="card-title fs-1 text-center"><strong></strong>Arthur Coller</h5>
+                            <h5 class="card-title fs-1 text-center"><strong></strong>Arthuro Coller</h5>
                             <p class="card-title fs-4 text-center">Directeur Commercial</p>
-                            <p class="card-text">En tant que Directeur Commercial, Arthur Coller sera chargé de superviser et de diriger les activités
+                            <p class="card-text">En tant que Directeur Commercial, Arthuro Coller sera chargé de superviser et de diriger les activités
                                 commerciales de l'entreprise, contribuant ainsi à atteindre les objectifs de vente et de croissance.</p>
 
                         </div>
@@ -116,7 +116,7 @@ require_once BASE_PROJET .
                             <img src="/assets/images/perso/IMG_1848.jpg" class="card-img-top mb-3">
                             <h5 class="card-title fs-1 text-center"><strong></strong>Daniel Ilo-AI</h5>
                             <p class="card-title fs-4 text-center">Testeur</p>
-                            <p class="card-text">Daniel Ilo-AI occupera le poste clé de testeur des nouveaux goût ! Il est munnie d'un des meilleurs palais de la classe ce qui permet à LPS de commercialisé les meilleurs goût !</p>
+                            <p class="card-text">Daniel Ilo-AI occupera le poste clé de testeur des nouveaux goûts ! Il est munni d'un des meilleurs palet de la classe ce qui permet à LPS de commercialiser les meilleurs goûts !</p>
                         </div>
                     </div>
                 </div>
@@ -128,6 +128,28 @@ require_once BASE_PROJET .
                             <h5 class="card-title fs-1 text-center"><strong></strong>Michelle ChienLeSki</h5>
                             <p class="card-title fs-4 text-center">BodyGuard</p>
                             <p class="card-text">Michelle est le meilleur agent de sécurité de la marque ! Il s'occupe de la sécurité du batiment de production.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-12 col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/assets/images/perso/titouan.jpg" class="card-img-top mb-3">
+                            <h5 class="card-title fs-1 text-center"><strong></strong>Titouane EmLeQuick</h5>
+                            <p class="card-title fs-4 text-center">Infermier</p>
+                            <p class="card-text">Titouane est l'infermier de l'entreprise. Il s'occupe des visites médicales, et des problèmes du personnel. Il peut intervenir en tant que thérapeute grâce à des médicaments surement douteux.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-12 col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/assets/images/perso/mrdossier.jpg" class="card-img-top mb-3">
+                            <h5 class="card-title fs-1 text-center"><strong></strong>Monsieur Dossier</h5>
+                            <p class="card-title fs-4 text-center">Intervenant écologique</p>
+                            <p class="card-text">Intervenant de chez <span class="text-success">EcoInnovate Solutions</span>, Monsieur Dossier apporte son expertise et sa conscience écologique afin de permettre à l'entreprise et ses collaborateurs d'adopter une production écologique et sociétal.</p>
                         </div>
                     </div>
                 </div>
